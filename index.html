@@ -15,31 +15,29 @@
    <!-- Main Style CSS -->
    <link rel="stylesheet" href="style.css">
 </head> 
-<body>
-    <div class="container bg-dark ">
-      <div class="row ">
+<body class="bg-dark" >
+      <div class="container" >
+      <div class="row row-cols-2 ">
         <div class="col  ">
-          <i class="fa-solid fa-bars fa-2x topColor"></i>
+          <i class="fa-solid fa-bars fa-2x topColor ms-1"></i>
         </div> 
-        <div class="col text-center heading">
-        </div> 
-        <div class="col plusIcon text-end" >
-         
-            <a class="nav-link dropdown-toggle topColor" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <div class="col  text-end" >
+            <a class="nav-link dropdown-toggle topColor" >
               Emily Jordan
             </a>
           
-        </div>  
+        </div> 
+      </div> 
     </div>
       
-    <div class="card rounded-3 backGround">
+    <div class="card rounded-3 backGround ">
      <div class="card  m-3 shadow-lg insideCard">
         <div class="card-body ">
             <div class="container " >
-                <div class="row ">
+                <div class="row row-cols-3">
                     <div class="col ">
                     </div> 
-                    <div class="col text-center heading">
+                    <div class="col text-center heading fs-2 fw-bolder">
                         Tasks
                     </div> 
                     <div class="col plusIcon text-end" >
@@ -50,67 +48,69 @@
             </div>
             
           <div class="container-fluid ">
-              <div class="row ">
-            <div class="col text-start " style="color: #6b66fa;">
-                <i class="fa-solid fa-angle-left fa-2x"></i>
+              <div class="row row-cols-3 row-cols-sm-3 ">
+            <div class="col-2 col-sm-3 text-start " style="color: #6b66fa;">
+                <i class="fa-solid fa-angle-left fa-sm-2x"></i>
             </div>
-              <div class="col text-center "  >
-               <div class="textStyleDays">Wednesday</div>
+              <div class="col-8 col-sm-6 text-center "  >
+               <div class="textStyleDays fs-3 lh-sm">Wednesday</div>
                <div class="textStyleDate">March 16, 2022</div>   
                 </div>
-              <div class="col text-end " style="color: #6b66fa;">
-                <i class="fa-solid fa-angle-right fa-2x"></i>
+              <div class="col-2 col-sm-3 text-end " style="color: #6b66fa;">
+                <i class="fa-solid fa-angle-right fa-sm-2x"></i>
               </div>
             </div>
           </div>
-          <div class="container mb-3 text-center textStyle ">
+          <div class="container mb-3 text-center textStyle fs-4 lh-1 ">
               <h3>There are curently no Tasks</h3>
           </div>
           <div class="container text-center mb-3" style="color: #6b66fa;">
             <i class="fa-solid fa-circle-plus fa-5x"></i>
         </div>
-        <div class="container textSmall text-center">
+        <div class="container textSmall mb-0  text-center">
             <h3>Tap to create a new task</h3>
         </div>
         </div>
       </div>
-      <div class=" fixed-bottom card-footer rounded-pill menu" >
-          <div class="container justify-contents-evenly ">
-              <div class="row text-center ">
-                  <div class="col-3 mx-auto text-center shadow-lg p-1 menucircle "  style=" background-color: #949cee;">
-                    <img src="image/check2-square.svg"  height="50px" alt="">
+      <div class=" fixed-bottom  " >
+          <div class="card-footer roundContainer  ">
+              <div class="row row-cols-4  ">
+                  <div class="col  mx-auto  shadow-lg menucircle "  style=" background-color: #949cee;">
+                    <img class="text-center mt-2" src="image/check2-square.svg" height="50px"  alt="">
                   </div>
-                  <div class="col-3 mx-auto p-1 shadow-lg menucircle"  style=" background-color:#dee1fb">
-                    <img src="image/Calander.svg"  height="50px" alt="">
-                    
+                  <div class="col m-1 mx-auto shadow-lg menucircle"  style=" background-color:#dee1fb">
+                    <img class="text-center mt-2" src="image/Calander.svg"   alt="">        
                 </div>
-                <div class="col-3 mx-auto p-1 shadow-lg menucircle " style=" background-color:#dee1fb">
+                <div class="col mx-auto shadow-lg menucircle " style=" background-color:#dee1fb">
                   <i class="bi bi-zoom-in" style="font-size: 50px; color: #949cee;"></i>
                 </div>
-                <div class="col-3 mx-auto p-1 shadow-lg menucircle" style=" background-color:#dee1fb">
-                  <i class="bi bi-people" style="font-size: 50px; color: #949cee;"></i>
+                <div class="col mx-auto shadow-lg menucircle" style=" background-color:#dee1fb">
+                  <i class="bi bi-people" style=" font-size: 50px; color: #949cee;"></i>
                 </div>
               </div>
               
           </div>
-          <div class="row text-center mt-1 ">
-            <div class="col-3 mx-auto">
+          <div class="container mb-1" >
+          <div class="row row-cols-4 text-center bottomMenuFontSize">
+            <div class="col mx-auto ">
               Tasks
             </div>
-            <div class="col-3 mx-auto">
-              Calendar
+            <div class="col mx-auto">
+              Calender
             </div>
-            <div class="col-3 mx-auto">
+            <div class="col mx-auto">
               Activity
             </div>
-            <div class="col-3 mx-auto">
+            <div class="col mx-auto">
               Team
             </div>
 
           </div>
+        </div>
       </div>
+    
     </div>
-      </div>
+      
 
 
 </body>

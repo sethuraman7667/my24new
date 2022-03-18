@@ -1,7 +1,7 @@
 .backGround {
     /* background-image: url('image/bg.png'); */
-    border-bottom-right-radius: 4rem!important;
-    border-bottom-left-radius: 4rem!important;
+    /* border-bottom-right-radius: 4rem!important;
+    border-bottom-left-radius: 4rem!important; */
     border-top-left-radius: 2rem!important;
     border-top-right-radius: 2rem!important;
     background-color: #d1baf9;
@@ -17,13 +17,21 @@
 .insideCard{
     background-color :#dbdffb;
     border-radius: 20px;
+    height: 70%;
 }
 
 .topColor{
   color: #d1baf9;
 
 }
-
+.bottomMenuFontSize{
+  font-size: 12px;
+}
+@media only screen and (min-width: 476px) {
+  .bottomMenuFontSize {
+    font-size: 15px;
+  }
+}
 .menu{
   background-color :#dbdffb;
   position: absolute;
@@ -38,48 +46,43 @@
 .textStyle{
     color: var(--mulled-wine);
     font-family: var(--font-family-sfprorounded-semibold);
-    font-size: var(--font-size-xxxl);
     font-style: normal;
-    font-weight: 600;
 }
 
 .textStyleDays{
   color: var(--plump-purple);
   font-family: var(--font-family-sfprorounded-bold);
-  font-size: var(--font-size-xxl);
   font-style: normal;
-  font-weight: 700;
-  line-height: 43px;
 }
 
 .heading{
   color: var(--mulled-wine);
     font-family: var(--font-family-sfprorounded-bold);
-    font-size: var(--font-size-xxxxl);
     font-style: normal;
-    font-weight: 700;
-    line-height: 36px;
     white-space: nowrap;
 }
 .textStyleDate{
-  color: var(--plump-purple);
   font-family: var(--font-family-sfprorounded-bold);
-  font-size: var(--font-size-s2);
   font-style: normal;
-  font-weight: 700;
-  line-height: 16px;
   color: #6b66fa;
 }
 .textSmall{
     color: var(--ocean-blue-pearl);
     font-family: var(--font-family-sfprorounded-semibold);
-    font-size: var(--font-size-m2);
     font-style: normal;
-    font-weight: 600;
     letter-spacing: 0;
-    margin-bottom: 150px;
 
 }
+
+.roundContainer{
+  border-top-left-radius: 2rem!important;
+  border-top-right-radius: 2rem!important;
+  border-bottom-left-radius: 2rem!important;
+  border-bottom-right-radius: 2rem!important;
+  background-color :#dbdffb;
+}
+
+
 
 .circleAbove{
      height:200px;
